@@ -5,7 +5,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-from exceptions.custom_exceptions import PatientNotFoundError
+from exceptions.custom_exceptions import FileOperationError, PatientNotFoundError
 
 
 class FileHandler:
