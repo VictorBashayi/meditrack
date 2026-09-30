@@ -5,7 +5,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-from exceptions.custom_exceptions import FileOperationError
+from exceptions.custom_exceptions import PatientNotFoundError
 
 
 class FileHandler:
@@ -205,7 +205,7 @@ class FileHandler:
                     break
 
             if patient is None:
-                raise FileOperationError(
+                raise PatientNotFoundError(
                     f"Patient with ID {patient_id} was not found."
                 )
 
