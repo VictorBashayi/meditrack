@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "name": "Jane Doe",
+    "age": 35,
+    "phone": "+2348012345678",
+    "email": "jane@example.com",
+    "patient_id": "PAT-000001",
+    "blood_group": "O+",
+    "allergies": [
+      "penicillin",
+      "aspirin"
+    ],
+    "medical_history": [
+      "hypertension"
+    ]
+  },
+  {
+    "name": "John Smith",
+    "age": 28,
+    "phone": "+2349087654321",
+    "email": "john@example.com",
+    "patient_id": "PAT-000002",
+    "blood_group": "A-",
+    "allergies": [],
+    "medical_history": []
+  }
+]
